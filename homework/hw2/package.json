@@ -1,0 +1,21 @@
+{
+  "name": "yn-cacl",
+  "version": "1.0.0",
+  "description": "This package allows you to add, subtract, divide and multirly numbers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run ./index.js"
+  },
+  "keywords": [
+    "calc",
+    "sum",
+    "div",
+    "mult",
+    "sub"
+  ],
+  "author": "Nataliya Yadykina",
+  "license": "ISC",
+  "dependencies": {
+    "yn-math-calc": "^1.0.0"
+  }
+}
