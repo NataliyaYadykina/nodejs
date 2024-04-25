@@ -10,7 +10,7 @@ const person = {
     city: 'Moscow'
 };
 
-const pathToFile = path.join(__dirname, 'person.join');
+const pathToFile = path.join(__dirname, 'person.json');
 
 fs.writeFileSync(pathToFile, JSON.stringify(person, null, 4), (err) => {
     if (err) {
